@@ -3,10 +3,10 @@ let spelunkyGirlSheet;
 let blueSheet;
 let limeSheet;
 let ninjaSheet;
-let PprpleSheet;
+let purpleSheet;
 
 let spelunkyBoyAnimation;
-let splunkyGirlAnimation;
+let spelunkyGirlAnimation;
 let blueAnimation;
 let limeAnimation;
 let ninjaAnimation;
@@ -14,7 +14,7 @@ let purpleAnimation;
 
 function preload() {
   spelunkyBoySheet = loadImage("assets/SpelunkyGuy.png");
-  splunkyGirlSheet = loadImage("assets/SpelunkyGirl.png");
+  spelunkyGirlSheet = loadImage("assets/SpelunkyGirl.png");
   blueSheet = loadImage("assets/Blue.png");
   limeSheet = loadImage("assets/Lime.png");
   ninjaSheet = loadImage("assets/Ninja.png");
@@ -26,7 +26,7 @@ function setup() {
   imageMode(CENTER);
   
   spelunkyBoyAnimation = new WalkingAnimation(spelunkyBoySheet,80,80,100,200,9);
-  spelunkyGirlAnimation = new WalkingAnimation(splunkyGirlSheet,80,80,200,200,9);
+  spelunkyGirlAnimation = new WalkingAnimation(spelunkyGirlSheet,80,80,200,200,9);
   blueAnimation = new WalkingAnimation(blueSheet,80,80,300,200,9);
   limeAnimation = new WalkingAnimation(limeSheet,80,80,100,300,9);
   ninjaAnimation = new WalkingAnimation(ninjaSheet,80,80,200,300,9);
