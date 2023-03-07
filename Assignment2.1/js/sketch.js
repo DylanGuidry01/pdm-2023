@@ -13,13 +13,14 @@ let sounds = new Tone.Players({
   "Uh Oh": "sounds/UhOh.mp3",
   "White Lotus": "sounds/whiteLotus.mp3",
   "Unite Dub": "sounds/UniteWin.mp3",
-  "Unite L": "sounds/UniteLose.mp3"
+  "Unite L": "sounds/UniteLose.mp3",
+  "Clap if you Care": "sounds/Clap.mp3"
 
 })
 
 const delay = new Tone.FeedbackDelay("8n", 0);
 
-let soundNames = ["Bonk","Aww", "Water Drop", "DuctTape","Fart","Paris","Woah","Boom", "Uh Oh", "White Lotus", "Unite Dub", "Unite L"];
+let soundNames = ["Bonk","Aww", "Water Drop", "DuctTape","Fart","Paris","Woah","Boom", "Uh Oh", "White Lotus", "Unite Dub", "Unite L", "Clap if you Care"];
 let buttons = [];
 
 let dSlider;
